@@ -72,7 +72,7 @@ export default {
           items: [
             { text: "Commonjs和ESM", link: "/articles/modules" },
             { text: "webpack和vite", link: "/articles/pack/webpack-vite" },
-            { text: "手写代码", link: "/articles/code/" },
+            { text: "手写代码", link: "/articles/code" },
             { text: "基础内容", link: "/articles/other" }
           ],
         },

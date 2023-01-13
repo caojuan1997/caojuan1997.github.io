@@ -3,16 +3,17 @@
 # 忽略错误
 set -e
 
+rm -rf docs
+
 # 构建
 npm run docs:build
 
 # 进入待发布的目录
-cd docs/.vitepress/dist
+cd document/.vitepress
 
 mv dist /Users/caojuan/user/project/vue-doc/blog/docs
 
-git init
-git add -A
+git add .
 git commit -m 'deploy'
 
 # 如果部署到 https://<USERNAME>.github.io
