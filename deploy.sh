@@ -13,6 +13,8 @@ cd document/.vitepress
 
 mv dist /Users/caojuan/user/project/vue-doc/blog/docs
 
+cd /Users/caojuan/user/project/vue-doc/blog
+
 git add .
 git commit -m 'deploy'
 
