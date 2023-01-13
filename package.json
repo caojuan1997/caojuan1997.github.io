@@ -1,0 +1,17 @@
+{
+  "name": "dandelion-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev document",
+    "docs:build": "vitepress build document",
+    "docs:serve": "vitepress serve document"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "1.0.0-alpha.4"
+  }
+}
